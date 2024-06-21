@@ -1,8 +1,8 @@
 import requests
 
-url = "https://login.microsoftonline.com/081a3ccb-0a61-4eaa-9bcc-386ad52326a3/oauth2/token"
+url = ""
 
-payload = 'grant_type=client_credentials&client_id=11ca7773-f845-4bd8-a3bc-2e267b200e52&client_secret=xxxxxx&resource=https%3A%2F%2Fws4healthdataservice-cf-patients-fhir-service.fhir.azurehealthcareapis.com'
+payload = ''
 headers = {
   'Content-Type': 'application/x-www-form-urlencoded'
 }
